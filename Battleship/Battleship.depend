@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1575382386 source:c:\users\brad\desktop\battleship\game.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+	"Game.h"
+
+1574363777 c:\users\brad\desktop\battleship\board.h
+
+1575223223 source:c:\users\brad\desktop\battleship\board.cpp
+	"Board.h"
+	<iostream>
+
+1574363207 c:\users\brad\desktop\battleship\player.h
+	<iostream>
+	<string>
+	"Board.h"
+
+1575381687 source:c:\users\brad\desktop\battleship\test.cpp
+	"Board.h"
+	"Game.h"
+	<random>
+
+1575381838 c:\users\brad\desktop\battleship\game.h
+	"Board.h"
+	"Human_Player.h"
+	"Random_Player.h"
+
+1574362980 source:c:\users\brad\desktop\battleship\human_player.cpp
+	<iostream>
+	"Human_Player.h"
+
+1574363207 c:\users\brad\desktop\battleship\human_player.h
+	"Player.h"
+	<string>
+
+1575383327 c:\users\brad\desktop\battleship\computer_player.h
+	"Player.h"
+	<string>
+
+1575232277 c:\users\brad\desktop\battleship\random_player.h
+	"Computer_Player.h"
+	<string>
+
+1575380282 source:c:\users\brad\desktop\battleship\random_player.cpp
+	<iostream>
+	<random>
+	"Random_Player.h"
+
+1575381462 source:c:\users\brad\desktop\battleship\computer_player.cpp
+	"Computer_Player.h"
+
